@@ -18,11 +18,16 @@ img {
 
 }
 
+.list {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+}
+
 ul {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    float: right;
-  
-    right: 40%;
+    width:50%;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     margin-top: 80px;
 }
 
@@ -34,13 +39,13 @@ p {
 footer {
     background-color: #86af49;
     height: 50px;
-   
+}
 
-    /* Align the h1 containing your name in the center of the header*/
+/* Align the h1 containing your name in the center of the header*/
 
 
-    /* Make your p tag a different color and italic */
+/* Make your p tag a different color and italic */
 
-    /* Put a border around your image */
+/* Put a border around your image */
 
-    /* Change the font-family of your list */
+/* Change the font-family of your list */
